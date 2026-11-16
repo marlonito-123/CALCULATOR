@@ -30,7 +30,7 @@ public class Main extends JFrame implements ActionListener {
         panel2 = new JPanel();
         frame.add(panel2,BorderLayout.NORTH);
         label = new JLabel("");
-        label.setFont(new Font("Arial", Font.PLAIN, 65));
+        label.setFont(new Font("Arial", Font.BOLD, 65));
         panel2.add(label);
         panel2.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         panel2.setLayout(new GridLayout(2, 1, 10, 10));
